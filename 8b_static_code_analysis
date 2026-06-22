@@ -1,6 +1,4 @@
-server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
-server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
-server.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+user@ibh-labs:~$ pylint server.py
 
 -------------------------------------------------------------------
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
