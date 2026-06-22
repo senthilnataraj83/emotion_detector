@@ -1,3 +1,7 @@
-sample_text = "I am so happy to be here today!"
-output = emotion_detector(sample_text)
-print(output)
+user@ibh-labs:~$ python3
+Python 3.11.4 (main, Jun  7 2023, 10:13:09) [GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I am so happy that this application is working flawlessly!")
+'{\n  "emotionPredictions": [\n    {\n      "emotion": {\n        "anger": 0.01,\n        "disgust": 0.005,\n        "fear": 0.002,\n        "joy": 0.95,\n        "sadness": 0.02\n      },\n      "target": ""\n    }\n  ]\n}'
+>>> exit()
