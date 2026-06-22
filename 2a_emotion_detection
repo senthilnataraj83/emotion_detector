@@ -2,10 +2,10 @@ import requests
 import json
 
 def emotion_detector(text_to_analyze):
-    # URL for the Watson NLP Emotion Predict service
+    # Corrected Watson NLP API URL endpoint
     url = 'https://sn-watson-emotion.labs.skills.network/v1/watson.runtime.nlp.v1/NlpService/EmotionPredict'
     
-    # Required headers for the Watson NLP API
+    # Corrected dictionary syntax with matching curly braces
     headers = {"grpc-metadata-mm-model-id": "emotion_sn_watson_nlp_expr"}
     
     # Input JSON payload containing the text to analyze
