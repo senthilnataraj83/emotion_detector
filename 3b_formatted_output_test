@@ -1,3 +1,7 @@
-sample_text_for_analysis = "I am so happy to be here today! This project is exciting and I feel great about it."
-analysis_output = emotion_detector(sample_text_for_analysis)
-print(analysis_output)
+user@ibh-labs:~$ python3
+Python 3.11.4 (main, Jun  7 2023, 10:13:09) [GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> emotion_detector("I am glad this is working")
+{'anger': 0.003, 'disgust': 0.001, 'fear': 0.001, 'joy': 0.965, 'sadness': 0.012, 'dominant_emotion': 'joy'}
+>>> exit()
