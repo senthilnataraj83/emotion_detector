@@ -1,0 +1,3 @@
+sample_text_for_analysis = "I am so happy to be here today! This project is exciting and I feel great about it."
+analysis_output = emotion_detector(sample_text_for_analysis)
+print(analysis_output)
